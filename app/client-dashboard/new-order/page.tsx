@@ -8,20 +8,21 @@ export default function NewOrderPage() {
   const [loading, setLoading] = useState(false);
 
   const [form, setForm] = useState({
-    businessName: "",
-    ownerName: "",
-    website: "",
-    gmb: "",
-    email: "",
-    phone: "",
-    address: "",
-    country: "",
-    service: "",
-    package: "",
-    keywords: "",
-    businessHours: "",
-    description: "",
-  });
+  businessName: "",
+  ownerName: "",
+  website: "",
+  gmb: "",
+  email: "",
+  phone: "",
+  address: "",
+  country: "",
+  service: "",
+  package: "",
+  keywords: "",
+  businessHours: "",
+  socialLinks: "",
+  description: "",
+});
 
   const handleChange = (
     e: React.ChangeEvent<
@@ -63,19 +64,21 @@ export default function NewOrderPage() {
       alert("✅ Order Submitted Successfully");
 
       setForm({
-        businessName: "",
-        ownerName: "",
-        website: "",
-        gmb: "",
-        email: "",
-        phone: "",
-        address: "",
-        country: "",
-        service: "",
-        package: "",
-        keywords: "",
-        description: "",
-      });
+  businessName: "",
+  ownerName: "",
+  website: "",
+  gmb: "",
+  email: "",
+  phone: "",
+  address: "",
+  country: "",
+  service: "",
+  package: "",
+  keywords: "",
+  businessHours: "",
+  socialLinks: "",
+  description: "",
+});
     } catch (error) {
       console.error(error);
       alert("Failed to submit order.");
