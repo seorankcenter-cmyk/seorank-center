@@ -15,6 +15,13 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "SEOrank Center",
   description: "Professional Local SEO & Web Development Services",
+
+  icons: {
+    icon: "/seorank-logo.jpg",
+    shortcut: "/seorank-logo.jpg",
+    apple: "/seorank-logo.jpg",
+  },
+
   keywords: [
     "Local SEO",
     "SEO Agency",
@@ -23,6 +30,7 @@ export const metadata: Metadata = {
     "Citation Building",
     "SEOrank Center",
   ],
+
   authors: [{ name: "SEOrank Center" }],
 };
 
