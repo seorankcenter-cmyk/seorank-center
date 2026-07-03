@@ -91,7 +91,7 @@ if (userDoc.exists()) {
       <Image
         src="/seorank-logo.jpg"
         alt="Logo"
-        width={55}
+        width={70}
         height={55}
         className="rounded-xl bg-white p-2"
       />
