@@ -89,7 +89,7 @@ if (userDoc.exists()) {
     <div className="flex items-center gap-4">
 
       <Image
-        src="/seorank-logo.jpg"
+        src="/seorank-logo.png"
         alt="Logo"
         width={70}
         height={55}
