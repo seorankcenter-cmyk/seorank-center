@@ -17,8 +17,10 @@ export const metadata: Metadata = {
   description: "Professional Local SEO & Web Development Services",
 
   icons: {
-  icon: "/seorank-logo.jpg",
-},
+    icon: "/seorank-logo.jpg",
+    shortcut: "/seorank-logo.jpg",
+    apple: "/seorank-logo.jpg",
+  },
 
   keywords: [
     "Local SEO",

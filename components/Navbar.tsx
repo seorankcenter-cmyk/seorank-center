@@ -29,7 +29,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
-            src="/seorank-logo.png"
+            src="/seorank-logo.jpg"
             alt="SEOrank Center"
             width={700}
             height={220}
