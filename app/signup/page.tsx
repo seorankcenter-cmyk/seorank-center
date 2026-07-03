@@ -157,7 +157,7 @@ await setDoc(doc(db, "users", result.user.uid), {
         {/* Logo */}
         <div className="flex justify-center">
           <Image
-            src="/seorank-logo.jpg"
+            src="/seorank-logo.png"
             alt="SEORank Center"
             width={170}
             height={70}
